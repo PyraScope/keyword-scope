@@ -30,6 +30,11 @@ targets:
 go run . -config config.yaml -listen :8182
 ```
 
+## Running with Docker Compose for Development:
+```
+docker compose -f docker-compose-dev.yml up --build
+```
+
 Then scrape `http://localhost:8182/metrics` from Prometheus.
 
 ## Ports:

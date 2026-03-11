@@ -1,0 +1,11 @@
+services:
+  keyword-scope:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: keyword-scope
+    ports:
+      - "8182:8182"
+    restart: unless-stopped
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro

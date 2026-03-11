@@ -68,7 +68,7 @@ var (
 
 func main() {
 	configPath := flag.String("config", "config.yaml", "Path to YAML config")
-	listenAddr := flag.String("listen", ":9105", "HTTP listen address")
+	listenAddr := flag.String("listen", ":8182", "HTTP listen address")
 	flag.Parse()
 
 	cfg, err := loadConfig(*configPath)

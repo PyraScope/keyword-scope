@@ -27,10 +27,10 @@ targets:
 ## Run
 
 ```bash
-go run . -config config.yaml -listen :9105
+go run . -config config.yaml -listen :8182
 ```
 
-Then scrape `http://localhost:9105/metrics` from Prometheus.
+Then scrape `http://localhost:8182/metrics` from Prometheus.
 
 ## Notes
 

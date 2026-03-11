@@ -1,0 +1,10 @@
+# Interval applies to all targets. Defaults to 30 seconds if omitted.
+interval_seconds: 30
+
+targets:
+  - name: example
+    url: "https://pyrascope.io"
+    keyword: "platforms"
+    case_insensitive: false
+    timeout_seconds: 10
+    max_bytes: 5242880

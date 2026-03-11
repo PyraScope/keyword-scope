@@ -32,6 +32,11 @@ go run . -config config.yaml -listen :8182
 
 Then scrape `http://localhost:8182/metrics` from Prometheus.
 
+## Ports:
+| Default Port | Name | Listing |
+|---|---|---|
+| 8182 | KeywordScope | [Prometheus](https://github.com/prometheus/prometheus/wiki/Default-port-allocations) |
+
 ## Notes
 
 - `interval_seconds` defaults to 30 seconds if not set or set to `0`.

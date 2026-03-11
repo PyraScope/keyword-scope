@@ -42,3 +42,7 @@ Then scrape `http://localhost:8182/metrics` from Prometheus.
 - `interval_seconds` defaults to 30 seconds if not set or set to `0`.
 - `timeout_seconds` defaults to 10 seconds; `max_bytes` defaults to 5MB.
 - One goroutine per target performs checks on the interval.
+
+## Contribution
+
+Please check our [Contributing Guide](./docs/CONTRIBUTING.md) on how you can contribute.
